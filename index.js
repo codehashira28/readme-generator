@@ -15,7 +15,7 @@ const questions = [
         name: 'description',
     },
     {
-        message: 'Are there any installation instructions for your project?',
+        message: 'What are the installation instructions for your project? If none, press Enter',
         name: 'installation',
     },
     {
@@ -23,11 +23,11 @@ const questions = [
         name: 'usage',
     },
     {
-        message: 'What are the project contribution guidelines',
+        message: 'What are the project contribution guidelines? If none, press Enter',
         name: 'contributions',
     },
     {
-        message: 'Tests?',
+        message: 'Do you have tests for your applications? If none, press Enter',
         name: 'test',
     },
     {
