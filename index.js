@@ -58,18 +58,18 @@ const questions = [
 ];
 
 
-prompt(questions).then((data) => {
-        const readme = markdown(data);
-        writeToFile('GeneratedREADME.md', readme);
-    })
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt(questions).then((data) => {
+        const readme = markdown(data);
+        writeToFile('GeneratedREADME.md', readme);
+    })
+}
 
 // Function call to initialize app
 init();
