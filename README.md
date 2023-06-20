@@ -2,7 +2,7 @@
 
 ## Description
 
-The Professional README generator project is a command-line application that accepts user input and generates a README file based on information given by the user. It allows the project creator to dedicate more time to building the project without having to worry about developing the README file manually. This project was built using Node.jS and inquirer version 8.2.4..
+The Professional README generator project is a command-line application that accepts user input and generates a README file based on information given by the user. It allows the project creator to dedicate more time to building the project without having to worry about developing the README file manually. This project was built using Node.js and inquirer version 8.2.4.
 
 ## Installation
 
