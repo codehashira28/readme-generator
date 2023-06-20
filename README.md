@@ -12,6 +12,8 @@ N/A
 
 In order to run the application, the user must run the command 'node index.js' in the command-line prompt. Once done, the user will be prompted with a series of questions that pertains to the information needed for the README file. When the user finishes answering the questions, the application will generate a README file titled "GeneratedREADME" based on the user's answers to the questions.
 
+![Demo]("https://drive.google.com/file/d/1R14mwCIvH0oOdnTd9QGG6nIGLZaJVp4a/view")
+
 ## Credits
 
 N/A
