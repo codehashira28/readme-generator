@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     prompt(questions).then((data) => {
         const readme = markdown(data);
-        writeToFile('GeneratedREADME.md', readme);
+        writeToFile('dist/README.md', readme);
     })
 }
 
