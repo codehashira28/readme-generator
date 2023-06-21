@@ -16,4 +16,4 @@ In order to run the application, the user must run the command 'node index.js' i
 
 ## Credits
 
-N/A
+Instructor helped with understanding purpose of init function.
